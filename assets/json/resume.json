@@ -35,7 +35,16 @@
       "courses": []
     }
   ],
-  "work": [
+  "work-Research Experience": [
+    {
+      "name": "Research Intern | Advisor: Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Irwin King</a>",
+      "position": "Summer Research Program, Chinese University of Hong Kong",
+      "url": "https://www.cse.cuhk.edu.hk/irwin.king/",
+      "startDate": "2024-06",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
     {
       "name": "Undergraduate Researcher | Advisor: Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Hsuan-Tien Lin</a>",
       "position": "Computational Learning Lab, NTU",
@@ -62,7 +71,9 @@
       "endDate": "",
       "summary": "Researched on Dialog Speech Generative Model & Self-supervised Learning for Speech Processing",
       "highlights": []
-    },
+    }
+  ],
+  "work-Teaching Experience": [
     {
       "name": "Teaching Assistant",
       "position": "EE5200: Introduction to Generative Artificial Intelligence, NTU",
@@ -80,7 +91,9 @@
       "endDate": "2023-06",
       "summary": "",
       "highlights": []
-    },
+    }
+  ],
+  "work-Work Experience": [
     {
       "name": "Machine Learning Intern",
       "position": "MediaTek Research",

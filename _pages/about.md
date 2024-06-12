@@ -6,7 +6,7 @@ subtitle: Undergraduate Student @ <a href='https://www.ntu.edu.tw/'>National Tai
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hcfang.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
