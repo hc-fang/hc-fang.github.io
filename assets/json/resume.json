@@ -24,11 +24,11 @@
   },
   "education": [
     {
-      "institution": "National Taiwan University (NTU)",
+      "institution": "Bachelor of Science",
       "location": "Taipei, Taiwan",
       "url": "https://www.ntu.edu.tw/",
       "area": "Department of Computer Science and Information Engineering (CSIE)",
-      "studyType": "Bachelor of Science",
+      "studyType": "National Taiwan University (NTU)",
       "startDate": "2020-09",
       "endDate": "",
       "score": "10",
@@ -37,39 +37,39 @@
   ],
   "work-Research Experience": [
     {
-      "name": "Research Intern | Advisor: Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Irwin King</a>",
+      "name": "Research Intern | Advisor: <a href='https://www.cse.cuhk.edu.hk/irwin.king/home'>Prof. Irwin King</a>",
       "position": "Summer Research Program, Chinese University of Hong Kong",
-      "url": "https://www.cse.cuhk.edu.hk/irwin.king/",
+      "url": "https://www.cuhk.edu.hk/english/index.html",
       "startDate": "2024-06",
       "endDate": "",
       "summary": "",
       "highlights": []
     },
     {
-      "name": "Undergraduate Researcher | Advisor: Prof. <a href='https://www.csie.ntu.edu.tw/~htlin/'>Hsuan-Tien Lin</a>",
+      "name": "Undergraduate Researcher | Advisor: <a href='https://www.csie.ntu.edu.tw/~htlin/'>Prof. Hsuan-Tien Lin</a>",
       "position": "Computational Learning Lab, NTU",
       "url": "https://www.csie.ntu.edu.tw/~htlin/paper/",
       "startDate": "2023-02",
       "endDate": "",
-      "summary": "Researching on Universal Domain Adaptation",
+      "summary": "<b>Research topic</b>: Universal Domain Adaptation",
       "highlights": []
     },
     {
-      "name": "Undergraduate Researcher | Advisor: Prof. <a href='https://www.csie.ntu.edu.tw/~yvchen/'>Yun-Nung (Vivian) Chen</a>",
+      "name": "Undergraduate Researcher | Advisor: <a href='https://www.csie.ntu.edu.tw/~yvchen/'>Prof. Yun-Nung (Vivian) Chen</a>",
       "position": "Machine Intelligence & Understanding Lab, NTU",
       "url": "https://www.csie.ntu.edu.tw/~miulab/",
       "startDate": "2022-03",
       "endDate": "",
-      "summary": "Researched on Open-Domain Conversational Question Answering & Retrieval-based Visual Question Answering",
+      "summary": "<b>Research topic</b>: Retrieval-based Visual/Conversatioal Question Answering",
       "highlights": []
     },
     {
-      "name": "Undergraduate Researcher | Advisor: Prof. <a href='https://speech.ee.ntu.edu.tw/~hylee/index.php'>Hung-Yi Lee</a>",
+      "name": "Undergraduate Researcher | Advisor: <a href='https://speech.ee.ntu.edu.tw/~hylee/index.php'>Prof. Hung-Yi Lee</a>",
       "position": "Speech Processing & Machine Learning Lab, NTU",
       "url": "https://speech.ee.ntu.edu.tw/~hylee/index.php",
       "startDate": "2022-09",
       "endDate": "",
-      "summary": "Researched on Dialog Speech Generative Model & Self-supervised Learning for Speech Processing",
+      "summary": "<b>Research topic</b>: Dialog Speech Generative Model, Self-supervised Learning for Speech Processing",
       "highlights": []
     }
   ],
