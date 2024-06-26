@@ -42,7 +42,7 @@
       "url": "https://www.cuhk.edu.hk/english/index.html",
       "startDate": "2024-06",
       "endDate": "",
-      "summary": "<b>Research topic</b>: Federated Learning",
+      "summary": "<b>Research topic</b>: Robust Federated Learning",
       "highlights": []
     },
     {
@@ -115,18 +115,25 @@
   ],
   "awards": [
     {
-      "title": "Honorable Mention, Undergraduate Research Exhibition",
-      "date": "2022",
-      "awarder": "Departiment of CSIE, NTU",
+      "title": "Principle's Award (2nd place), Bachelor's Thesis Award",
+      "date": "2024",
+      "awarder": "National Taiwan University",
       "url": "",
-      "summary": ""
+      "summary": "Awarded for an outstanding undergraduate thesis among all graduating students."
     },
     {
-      "title": "Special Award (4th/300+ teams), LINE FRESH Hackathon",
+      "title": "Honorable Mention, Undergraduate Research Exhibition",
+      "date": "2022",
+      "awarder": "Departiment of Computer Science and Information Engineering, National Taiwan University",
+      "url": "",
+      "summary": "Awarded to one of the top 6 research projects among all Computer Science students."
+    },
+    {
+      "title": "Special Award, LINE FRESH Hackathon",
       "date": "2021",
       "awarder": "LINE Corporation",
       "url": "",
-      "summary": ""
+      "summary": "Awarded for effectively incorporating software technology to solve business problems, ranking 4th out of 300+ teams."
     }
   ],
   "volunteer": [
