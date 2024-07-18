@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Hung-Chieh Fang",
+    "name": "Hung-Chieh Fang (方泓傑)",
     "label": "",
     "image": "",
     "email": "b09902106@csie.ntu.edu.tw",
@@ -39,10 +39,10 @@
     {
       "name": "Visiting Student | Advisor: <a href='https://www.cse.cuhk.edu.hk/irwin.king/home'>Prof. Irwin King</a>",
       "position": "Web Intelligence & Social Computing Lab, The Chinese University of Hong Kong",
-      "url": "https://www.cuhk.edu.hk/english/index.html",
+      "url": "https://misc-lab.cse.cuhk.edu.hk/",
       "startDate": "2024-06",
       "endDate": "",
-      "summary": "<b>Research topic</b>: Robust Federated Learning",
+      "summary": "<b>Research topic</b>: Federated Learning",
       "highlights": []
     },
     {
