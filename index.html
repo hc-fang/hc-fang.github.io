@@ -84,12 +84,11 @@
               <td style="padding:20px 20px 20px 20px; width:100%;vertical-align:middle; line-height: 1.4">
                 <h2>Research</h2>
                 <p>
-                  <!-- I am interested in robot learning, specifically in making RL and IL scalable for tasks that involve extensive interactions beyond basic manipulation. I am also interested in robust machine learning, where I have worked on representation learning under distribution shift and aggregating non-IID data. -->
-                  I am broadly interested in robotics, representation learning and reinforcement learning. My goal is to develop robots with <i>generalist intelligence</i> that can <i>autonomously adapt</i> in the real world. I am particularly interested in:
-                  <ul>
+                  I am broadly interested in robotics, representation learning and reinforcement learning. My goal is to develop robots with <i>generalist intelligence</i> that can <i>autonomously adapt</i> through interaction and feedback from both humans and the physical world. 
+                  <!-- I am particularly interested in: -->
+                  <!-- <ul>
                     <li style="margin-bottom: 0.5rem;">
-                    <strong>Representation learning for generalist policies</strong>: (1) learning <a href="https://ssd-uniformity.github.io/">generalized representations from heterogeneous data</a> (2) discovering the <a href="data/sof.pdf">underlying shared structure</a> across different modalities (e.g., vision, text, control, touch).
-                    <!-- improving the alignment between robot action representations and scalable vision-language representations, and exploring how these modalities can mutually enhance each other. -->
+                    <strong>Representation learning for generalist policies</strong>: (1) learning <a href="https://ssd-uniformity.github.io/">expressive representations</a> (2) discovering the <a href="data/sof.pdf">underlying shared structure</a> across different modalities (e.g., vision, text, control, touch).
                     </li>
 
                     <li style="margin-bottom: 0.5rem;">
@@ -99,7 +98,7 @@
                     <li style="margin-bottom: -1.5rem;">
                       <strong>Dexterous manipulation</strong>: scaling up dexterous hand capabilities across diverse tasks by learning from diverse sources (e.g., simulation, human videos).
                     </li>
-                  </ul>
+                  </ul> -->
                 </p>
               </td>
             </tr>
@@ -123,10 +122,9 @@
               <div style="margin-top:2px">
               <a href="https://openreview.net/pdf?id=7Udx16p9Rz">manuscript</a>
               </div>
-              <p></p>
-              <p>
-                
-              </p>
+              <div style="margin-top:5px">
+                We propose <i>drumming</i> as a unified testbed for in-hand, contact-rich, and long-horizon dexterous manipulation. We present DexDrummer, a general <i>contact-targeted</i> RL recipe that enables dexterous skills for long horizon songs.
+              </div>
             </td>
           </tr>
 
@@ -149,12 +147,11 @@
               <em>ICML Workshop on Building Physically Plausible World Models, 2025</em>
               </div>
               <div style="margin-top:2px">
-              <a href="data/sof.pdf">manuscript</a>
+              <a href="data/sof.pdf">manuscript</a> / <a href="data/sof_poster.pdf">poster</a>
               </div>
-              <p></p>
-              <p>
-                
-              </p>
+              <div style="margin-top:5px">
+                We propose SOF, a method that leverages temporal structures in videos while enabling easier translation to low-level control. SOF learns a latent <i>skill</i> space through <i>optical flow representations</i> that better aligns video and action dynamics, thereby improving long-horizon performance.
+              </div>
             </td>
           </tr>
 
@@ -176,10 +173,9 @@
                 <div style="margin-top:2px">
                 <a href="https://arxiv.org/abs/2508.01251">paper</a> / <a href="https://ssd-uniformity.github.io/">website</a> / <a href="https://github.com/hc-fang/ssd">code</a> / <a href="data/ssd_iccv25_poster.pdf">poster</a>
                 </div>
-                <p></p>
-                <p>
-                  We explore how to improve generalization under highly non-IID client distributions where representations are non-shared. We propose <i>soft separation</i>, which regularizes each client toward a distinct subspace to improve inter-client uniformity (maximizing information) while preserving semantic alignment.
-                </p>
+                <div style="margin-top:5px">
+                  We explore how to improve generalization under highly non-IID data distributions where representations are non-shared. We propose a plug-and-play regularizer that encourages dispersion to improve uniformity without sacrificing semantic alignment.
+                </div>
               </td>
             </tr>
 
@@ -202,7 +198,7 @@
                 </div>
                 <p></p>
                 <p>
-                  We study how to adapt to arbitrary target domains without assuming any class-set priors. Existing methods suffer from severe negative transfer under large class-set shifts due to the overestimation of importance weights. We propose a simple uniformity loss that increases the entropy of target representations and improves performance across all class-set priors.
+                  We study how to adapt to arbitrary target domains <i>without assuming any class-set priors</i>. Existing methods suffer from severe negative transfer under large class-set shifts due to the overestimation of importance weights. We propose a simple uniformity loss that increases the entropy of target representations and improves performance across all class-set priors.
                 </p>
               </td>
             </tr>
@@ -225,10 +221,9 @@
                 <div style="margin-top:4px">
                 <a href="https://arxiv.org/abs/2211.09401">paper</a> / <a href="https://github.com/MiuLab/ConvADR-QA">code</a>
                 </div>
-                <p></p>
-                <p>
+                <div style="margin-top:5px">
                   We propose combining the signal from historical answers with the <em>noise-reduction</em> ability of knowledge distillation to improve information retrieval and question answering.
-                </p>
+                </div>
               </td>
             </tr>
           </tbody></table>
@@ -300,11 +295,29 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <h2>Teaching</h2>
+            <h2>Teaching and Service</h2>
           </td>
         </tr>
       </tbody></table>
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+         <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src='images/review.png' width="140">
+            </div>
+          </td>
+          <td width="75%" valign="center">
+            <b>Reviewer</b>
+            <br>
+            <br>
+            ICLR 2026, TMLR 2025
+            <!-- Teaching Assistant, <a href="https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php" >EE5100: Introduction to Generative Artificial Intelligence, Spring 2024</a>
+            <br>
+            <br>
+            Teaching Assistant, <a href="https://www.csie.ntu.edu.tw/~htlin/course/ml23spring/" >CSIE5043: Machine Learning, Spring 2023</a> -->
+          </td>
+        </tr>
         
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -312,7 +325,11 @@
               <img src='images/ntu_logo.png' width="140">
             </div>
           </td>
+            
           <td width="75%" valign="center">
+            <b>National Taiwan University</b>
+            <br>
+            <br>
             Teaching Assistant, <a href="https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php" >EE5100: Introduction to Generative Artificial Intelligence, Spring 2024</a>
             <br>
             <br>
