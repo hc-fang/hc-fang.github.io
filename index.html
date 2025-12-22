@@ -100,12 +100,17 @@
                     </li>
                   </ul> -->
                 </p>
+                <div style="margin-top: 20px; margin-bottom: 10px;">
+                  <a href="javascript:void(0);" class="topic-link active" onclick="filterByTopic('all')" style="margin-right: 20px; padding-bottom: 5px; color: #1460a7; text-decoration: none; border-bottom: 2px solid #1460a7; font-size: 14px;">All</a>
+                  <a href="javascript:void(0);" class="topic-link" onclick="filterByTopic('robot-learning')" style="margin-right: 20px; padding-bottom: 5px; color: #666; text-decoration: none; border-bottom: 2px solid transparent; font-size: 14px;">Robot Learning</a>
+                  <a href="javascript:void(0);" class="topic-link" onclick="filterByTopic('representation-learning')" style="padding-bottom: 5px; color: #666; text-decoration: none; border-bottom: 2px solid transparent; font-size: 14px;">Representation Learning</a>
+                </div>
               </td>
             </tr>
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
-          <tr>
+          <tr class="paper-item" data-topic="robot-learning">
             <!-- <td style="padding:20px 0px 0px 20px;width:25%;vertical-align:middle"> -->
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -129,14 +134,14 @@
           </tr>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
-          <tr>
+          <tr class="paper-item" data-topic="robot-learning representation-learning">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <img src='images/sof.jpg' width="170">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-                <span class="papertitle">Learning Skill Abstraction from Action-Free Videos</span>
+                <span class="papertitle">Learning Skills from Action-Free Videos</span>
               <br>
               <strong>Hung-Chieh Fang*</strong>, <a href="https://khhung-906.github.io/">Kuo-Han Hung</a>*, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href="https://openreview.net/profile?id=~Po-Jung_Chou1">Po-Jung Chou</a>, <a href="https://yck1130.github.io/">Chun-Kai Yang</a>, <a href="https://pochen-ko.github.io/">Po-Chen Ko</a>, <a href="https://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Wang</a>, <a href="https://kristery.github.io/">Yueh-Hua Wu</a>, <a href="https://minhungchen.netlify.app/">Min-Hung Chen</a>, <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>
               <!-- <div style="margin-top:2px">
@@ -145,7 +150,7 @@
               <br>
               <em>ICML Workshop on Building Physically Plausible World Models, 2025</em>
               <br>
-              <a href="data/sof.pdf">paper</a> / <a href="https://sof-video.github.io/">website</a> / <a href="data/sof_poster.pdf">poster</a>
+              <a href="data/sof.pdf">paper</a> / <a href="https://sof-video.github.io/">website</a> 
               <div style="margin-top:5px">
                 We propose SOF, a method that leverages temporal structures in videos while enabling easier translation to low-level control. SOF learns a latent <i>skill</i> space through <i>optical flow representations</i> that better aligns video and action dynamics, thereby improving long-horizon performance.
               </div>
@@ -153,7 +158,7 @@
           </tr>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
+            <tr class="paper-item" data-topic="representation-learning">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <img src='images/ssd.png' width="190">
@@ -173,7 +178,7 @@
               </td>
             </tr>
 
-            <tr>
+            <tr class="paper-item" data-topic="representation-learning">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <img src='images/unida_thumbnail.png' width="190">
@@ -194,7 +199,7 @@
             </tr>
 
            
-            <tr>
+            <tr class="paper-item" data-topic="">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <img src='images/convadrqa.png' width="190">
@@ -367,5 +372,36 @@
         </td>
       </tr>
     </table>
+    
+    <script>
+      function filterByTopic(topic) {
+        // Get all paper items
+        const papers = document.querySelectorAll('.paper-item');
+        const links = document.querySelectorAll('.topic-link');
+        
+        // Update link styles
+        links.forEach(link => {
+          link.style.color = '#666';
+          link.style.borderBottom = '2px solid transparent';
+          link.classList.remove('active');
+        });
+        
+        event.target.style.color = '#1460a7';
+        event.target.style.borderBottom = '2px solid #1460a7';
+        event.target.classList.add('active');
+        
+        // Filter papers
+        papers.forEach(paper => {
+          const paperTopics = paper.getAttribute('data-topic');
+          if (topic === 'all') {
+            paper.style.display = '';
+          } else if (paperTopics && paperTopics.includes(topic)) {
+            paper.style.display = '';
+          } else {
+            paper.style.display = 'none';
+          }
+        });
+      }
+    </script>
   </body>
 </html>
