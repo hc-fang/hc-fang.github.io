@@ -20,6 +20,14 @@
         color: #1460a7; /* black on hover */
         text-decoration: underline;
       }
+
+      .paper-tag {
+        font-size: 1.0em;
+        font-weight: 1000;
+        letter-spacing: 0.03em;
+      }
+      .tag-spotlight { color: #0891b2; }
+      .tag-best-paper { color: #c0392b; }
     </style>
     
   </head>
@@ -38,7 +46,8 @@
                 <p>I received my bachelor’s degree in Computer Science from <a href="https://www.ntu.edu.tw/">National Taiwan University</a>, where I was fortunate to be advised by Professors <a href="https://www.csie.ntu.edu.tw/~htlin/">Hsuan-Tien Lin</a>, <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>, and <a href="https://www.csie.ntu.edu.tw/~yvchen/">Yun-Nung (Vivian) Chen</a>.</p>
                 <p>I was also a visiting research intern at <a href="https://www.stanford.edu/">Stanford University</a>, working with Prof. <a href="https://dorsa.fyi/">Dorsa Sadigh</a>, and at <a href="https://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>, where I worked with Prof. <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Irwin King</a>.</p>
                 <p style="text-align:center">
-                  <a href="mailto:hungchieh.fang@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <!-- <a href="mailto:hungchieh.fang@gmail.com">Email</a> &nbsp;/&nbsp; -->
+                  hcfang@ucla.edu &nbsp;/&nbsp; 
                   <!-- <a href="data/cv_hcfang.pdf">CV</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?user=MpGIrR0AAAAJ&hl">Google Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/hc-fang/">Github</a> &nbsp;/&nbsp;
@@ -52,7 +61,7 @@
             </tr>
           </tbody></table>
 
-          <table style="margin-top: -20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- <table style="margin-top: -20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr><td style="padding:0px 20px 10px 20px;width:100%;vertical-align:middle">
               <h2>News</h2>
               <p></p>
@@ -76,7 +85,7 @@
                 <strong><span class="newsdate">- [May 2025] </span></strong>
                 Our paper on <a href="https://dc-unida.github.io/">adaptation across any class priors</a> has been accepted to ICML 2025. See you in Vancouver!
               </td>
-            </tr>
+            </tr> -->
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
@@ -110,7 +119,7 @@
                 <br>
               <strong>Hung-Chieh Fang</strong>, <a href="https://amberxie88.github.io/">Amber Xie</a>, <a href="https://jenngrannen.com/">Jennifer Grannen</a>, <a href="https://www.linkedin.com/in/kenneth-llontop/">Kenneth Llontop</a>, <a href="https://dorsa.fyi/">Dorsa Sadigh</a>
                <br>
-              <em>Under Review</em>
+              <em>ICRA Workshop on Dexterity with Multifingered Hands, 2026 &nbsp;<span class="paper-tag tag-spotlight">(Spotlight Presentation)</span></em>
                 <br>
               <a href="https://arxiv.org/abs/2603.22263">paper</a> / <a href="https://dexdrummer.github.io/">website</a> / <a href="https://github.com/hc-fang/dexdrummer">code</a> 
                 <div style="margin-top:5px">
@@ -119,6 +128,27 @@
               <!-- </div> -->
             </td>
           </tr>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr class="paper-item" data-topic="representation-learning">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <img src='images/ssd.png' width="190">
+                </div>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                  <span class="papertitle">Soft Separation and Distillation: Toward Global Uniformity in Federated Unsupervised Learning</span>
+                <br>
+                <strong>Hung-Chieh Fang</strong>, <a href="https://www.csie.ntu.edu.tw/~htlin/">Hsuan-Tien Lin</a>, <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Irwin King</a>, <a href="https://yifeiacc.github.io/">Yifei Zhang</a> 
+                <br>
+                <em>ICCV 2025</em>
+                <br>
+                <a href="https://arxiv.org/abs/2508.01251">paper</a> / <a href="https://ssd-uniformity.github.io/">website</a> / <a href="https://github.com/hc-fang/ssd">code</a> / <a href="data/ssd_iccv25_poster.pdf">poster</a>
+                <div style="margin-top:5px">
+                  We explore how to improve generalization under highly non-IID data distributions where representations are non-shared. We propose a plug-and-play regularizer that encourages dispersion to improve uniformity without sacrificing semantic alignment.
+                </div>
+              </td>
+            </tr>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
           <tr class="paper-item" data-topic="robot-learning representation-learning">
@@ -144,26 +174,6 @@
             </td>
           </tr>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr class="paper-item" data-topic="representation-learning">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/ssd.png' width="190">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                  <span class="papertitle">Soft Separation and Distillation: Toward Global Uniformity in Federated Unsupervised Learning</span>
-                <br>
-                <strong>Hung-Chieh Fang</strong>, <a href="https://www.csie.ntu.edu.tw/~htlin/">Hsuan-Tien Lin</a>, <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Irwin King</a>, <a href="https://yifeiacc.github.io/">Yifei Zhang</a> 
-                <br>
-                <em>International Conference on Computer Vision (ICCV), 2025</em>
-                <br>
-                <a href="https://arxiv.org/abs/2508.01251">paper</a> / <a href="https://ssd-uniformity.github.io/">website</a> / <a href="https://github.com/hc-fang/ssd">code</a> / <a href="data/ssd_iccv25_poster.pdf">poster</a>
-                <div style="margin-top:5px">
-                  We explore how to improve generalization under highly non-IID data distributions where representations are non-shared. We propose a plug-and-play regularizer that encourages dispersion to improve uniformity without sacrificing semantic alignment.
-                </div>
-              </td>
-            </tr>
 
             <tr class="paper-item" data-topic="representation-learning">
               <td style="padding:20px;width:25%;vertical-align:middle">
@@ -176,7 +186,7 @@
                 <br>
                 <strong>Hung-Chieh Fang</strong>, <a href="https://ariapoy.github.io/">Po-Yi Lu</a>, <a href="https://www.csie.ntu.edu.tw/~htlin/">Hsuan-Tien Lin</a>
                 <br>
-                <em>International Conference on Machine Learning (ICML), 2025</em>
+                <em>ICML 2025</em>
                 <br>
                 <a href="https://arxiv.org/abs/2410.11271">paper</a> / <a href="https://dc-unida.github.io/">website</a> / <a href="data/unida_icml25_poster.pdf">poster</a>
                 <div style="margin-top:5px">
@@ -186,7 +196,7 @@
             </tr>
 
            
-            <tr class="paper-item" data-topic="">
+            <!-- <tr class="paper-item" data-topic="">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <img src='images/convadrqa.png' width="190">
@@ -204,7 +214,7 @@
                   We propose combining the signal from historical answers with the <em>noise-reduction</em> ability of knowledge distillation to improve information retrieval and question answering.
                 </div>
               </td>
-            </tr>
+            </tr> -->
           </tbody></table>
           <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
